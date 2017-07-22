@@ -1,46 +1,46 @@
 
 @font-face {
     font-family: "TTKBDikTemelAbece";
-    src: url("../font/TTKBDikTemelAbece.ttf");
+    src: url("TTKBDikTemelAbece.ttf");
 }
 @font-face {
     font-family: "TTKBDikTemelAbece-Bold";
-    src: url("../font/TTKBDikTemelAbece-Bold.ttf");
+    src: url("TTKBDikTemelAbece-Bold.ttf");
 }
 
 @font-face {
     font-family: "TTKBDikTemelAbeceArrow";
-    src: url("../font/TTKBDikTemelAbeceArrow.ttf");
+    src: url("TTKBDikTemelAbeceArrow.ttf");
 }
 
 @font-face {
     font-family: "TTKBDikTemelAbeceBody";
-    src: url("../font/TTKBDikTemelAbeceBody.ttf");
+    src: url("TTKBDikTemelAbeceBody.ttf");
 }
 
 @font-face {
     font-family: "TTKBDikTemelAbeceDot";
-    src: url("../font/TTKBDikTemelAbeceDot.ttf");
+    src: url("TTKBDikTemelAbeceDot.ttf");
 }
 
 @font-face {
     font-family: "TTKBDikTemelAbeceOutBody";
-    src: url("../font/TTKBDikTemelAbeceOutBody.ttf");
+    src: url("TTKBDikTemelAbeceOutBody.ttf");
 }
 
 @font-face {
     font-family: "TTKBDikTemelAbeceOutLine";
-    src: url("../font/TTKBDikTemelAbeceOutLine.ttf");
+    src: url("TTKBDikTemelAbeceOutLine.ttf");
 }
 
 @font-face {
     font-family: "TTKBDikTemelAbeceOutUni";
-    src: url("../font/TTKBDikTemelAbeceOutUni.ttf");
+    src: url("TTKBDikTemelAbeceOutUni.ttf");
 }
 
 @font-face {
     font-family: "TTKBDikTemelAbeceUni";
-    src: url("../font/TTKBDikTemelAbeceUni.ttf");
+    src: url("TTKBDikTemelAbeceUni.ttf");
 }
 
 #txt {
