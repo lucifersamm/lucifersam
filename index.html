@@ -46,8 +46,10 @@
     $("#inp_txt").on('keyup', function () {
         $('#txt').text($(this).val());
     });
+var hideKeyboard = function() {
     document.activeElement.blur();
-
+    $("input").blur();
+};
 </script>
 </body>
 </html>
