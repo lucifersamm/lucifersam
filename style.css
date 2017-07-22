@@ -47,8 +47,9 @@
     font-family: "TTKBDikTemelAbece", Arial,  Helvetica;
     margin-top: 10px;
     font-size: 80px;
-    min-height:50px;
+    min-height: 50px;
     word-wrap: break-word;
+    text-align: center;
 }
 
 label{
