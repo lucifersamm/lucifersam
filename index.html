@@ -43,7 +43,7 @@
     $( "#boyut" ).change(function() {
         $('#txt').css("fontSize", $(this).val()+"px");
     });
-    $("#inp_txt").keyup(function () {
+    $("#inp_txt").on('keyup', function () {
         $('#txt').text($(this).val());
     });
     document.activeElement.blur();
