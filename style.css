@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: "TTKBDikTemelAbece";
+    src: url("../font/TTKBDikTemelAbece.ttf");
+}
+@font-face {
+    font-family: "TTKBDikTemelAbece-Bold";
+    src: url("../font/TTKBDikTemelAbece-Bold.ttf");
+}
+
+@font-face {
+    font-family: "TTKBDikTemelAbeceArrow";
+    src: url("../font/TTKBDikTemelAbeceArrow.ttf");
+}
+
+@font-face {
+    font-family: "TTKBDikTemelAbeceBody";
+    src: url("../font/TTKBDikTemelAbeceBody.ttf");
+}
+
+@font-face {
+    font-family: "TTKBDikTemelAbeceDot";
+    src: url("../font/TTKBDikTemelAbeceDot.ttf");
+}
+
+@font-face {
+    font-family: "TTKBDikTemelAbeceOutBody";
+    src: url("../font/TTKBDikTemelAbeceOutBody.ttf");
+}
+
+@font-face {
+    font-family: "TTKBDikTemelAbeceOutLine";
+    src: url("../font/TTKBDikTemelAbeceOutLine.ttf");
+}
+
+@font-face {
+    font-family: "TTKBDikTemelAbeceOutUni";
+    src: url("../font/TTKBDikTemelAbeceOutUni.ttf");
+}
+
+@font-face {
+    font-family: "TTKBDikTemelAbeceUni";
+    src: url("../font/TTKBDikTemelAbeceUni.ttf");
+}
+
+#txt {
+    font-family: "TTKBDikTemelAbece", Arial,  Helvetica;
+    margin-top: 10px;
+    font-size: 80px;
+    min-height:50px;
+    word-wrap: break-word;
+}
+
+label{
+ margin-top: 10px;
+}
+
+.fc {
+    width:auto;
+}
+
+
+
+

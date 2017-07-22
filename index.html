@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Meb Font</title>
+</head>
+<body>
+
+<div class="container">
+    <div id="txt">İzmir'in Dağlarında Çiçekler Açar!</div>
+    <label>Text:</label>
+    <input type="text" id="inp_txt" class="form-control" value="İzmir'in Dağlarında Çiçekler Açar!"/>
+    <label>Font: </label>
+    <select id="font" class="form-control fc">
+        <option value="TTKBDikTemelAbece">TTKBDikTemelAbece</option>
+        <option value="TTKBDikTemelAbece-Bold">TTKBDikTemelAbece-Bold</option>
+        <option value="TTKBDikTemelAbeceArrow">TTKBDikTemelAbeceArrow</option>
+        <option value="TTKBDikTemelAbeceBody">TTKBDikTemelAbeceBody</option>
+        <option value="TTKBDikTemelAbeceDot">TTKBDikTemelAbeceDot</option>
+        <option value="TTKBDikTemelAbeceOutBody">TTKBDikTemelAbeceOutBody</option>
+        <option value="TTKBDikTemelAbeceOutLine">TTKBDikTemelAbeceOutLine</option>
+        <option value="TTKBDikTemelAbeceOutUni">TTKBDikTemelAbeceOutUni</option>
+        <option value="TTKBDikTemelAbeceUni">TTKBDikTemelAbeceUni</option>
+    </select>
+    <label>Boyut:</label>
+    <select id="boyut" class="form-control fc">
+        <option value="40">40</option>
+        <option value="60">60</option>
+        <option value="80" selected>80</option>
+        <option value="100">100</option>
+        <option value="120">120</option>
+        <option value="140">140</option>
+        <option value="160">160</option>
+    </select>
+</div>
+<script>
+    $( "#font" ).change(function() {
+        $('#txt').css("font-family", $(this).val());
+    });
+    $( "#boyut" ).change(function() {
+        $('#txt').css("fontSize", $(this).val()+"px");
+    });
+    $("#inp_txt").keyup(function () {
+        $('#txt').text($(this).val());
+    })
+</script>
+</body>
+</html>
