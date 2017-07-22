@@ -45,7 +45,8 @@
     });
     $("#inp_txt").keyup(function () {
         $('#txt').text($(this).val());
-    })
+    });
+    document.activeElement.blur();
 </script>
 </body>
 </html>
